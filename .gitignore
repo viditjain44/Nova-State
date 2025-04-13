@@ -1,1 +1,15 @@
+# Ignore node_modules directories in both api and client
+/api/node_modules/
+/client/node_modules/
+
+# Ignore .env files
+/api/.env
+/client/.env
+
+# Ignore logs and other common unwanted files
+*.log
+*.env.local
+*.env.*.local
+
+
 
